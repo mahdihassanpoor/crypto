@@ -1,9 +1,5 @@
 <template>
-  <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
+  <div id="app" class="bg-gray-100 w-100 min-h-screen py-16" dir="rtl">
     <router-view/>
   </div>
 </template>
